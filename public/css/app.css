@@ -1,0 +1,29 @@
+#header{
+    padding: 0 2rem;
+}
+
+.img-div{
+    text-align: center;
+    width: 100%;
+}
+
+.img{
+    width: 100%;
+}
+
+.profile-card{
+    width: 32rem;
+    margin: 2rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.profile-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
